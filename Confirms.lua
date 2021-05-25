@@ -11,7 +11,7 @@ local addonName, t = ...;
 		confirm		: If a gossip option uses a confirmation as a followup, this is the text we want to check for.
 		text		: A message the addon will print when the automation is complete.
 		cost		: The cost of selecting the option. This value should include a buffer. (Ex: If the option costs 10 silver to select, then a buffer might be 1 gold before the automation will use it.)
-		target		: If the name is too long, it may be more appropriate to base the automation off the player's current target instead.
+		targets		: If the name is too long, it may be more appropriate to base the automation off the player's current target instead.
 		mod			: The key used to disable the automation.
 ]]--
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
