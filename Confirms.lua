@@ -67,6 +67,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["mod"] = "LALT",
 	},
+	["Quests_004"] = { -- Quest: Remedial Lessons
+		["name"] = "I will retrieve the scrolls.",
+		["confirm"] = "",
+		["text"] = "Spoke with Voitha to retrieve the scrolls.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
