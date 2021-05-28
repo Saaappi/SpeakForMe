@@ -15,8 +15,16 @@ local addonName, t = ...;
 		mod			: The key used to disable the automation.
 ]]--
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
-	["BattlePets_AcceptBattle"] = { -- Accepting a battle at a pet tamer.
+	["BattlePets_AcceptBattle1"] = { -- Accepting a battle at a pet tamer.
 		["name"] = "Let's do battle!",
+		["confirm"] = "",
+		["text"] = "Accepted battle against a pet tamer.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
+	["BattlePets_AcceptBattle2"] = { -- Accepting a battle at a pet tamer.
+		["name"] = "Begin pet battle.",
 		["confirm"] = "",
 		["text"] = "Accepted battle against a pet tamer.",
 		["cost"] = 0,
