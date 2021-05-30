@@ -51,18 +51,12 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["MSV_Cho1"] = { -- Lorewalker Cho: The Spirit Kings
-		["name"] = "What are you waiting for? Let's go investigate!",
-		["names"] = {},
-		["confirm"] = "",
-		["text"] = "",
-		["cost"] = 0,
-		["targets"] = {},
-		["mod"] = "LALT",
-	},
-	["MSV_Cho2"] = { -- Lorewalker Cho: Elegon
-		["name"] = "Go ahead and turn this thing on.",
-		["names"] = {},
+	["MSV_Cho"] = { -- Lorewalker Cho in Mogu'shan Vaults
+		["name"] = 
+		["names"] = {
+			"What are you waiting for? Let's go investigate!",
+			"Go ahead and turn this thing on.",
+		},
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
