@@ -157,6 +157,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q012"] = { -- Quest: Return to Samophlanger
+		["name"] = "Send me back to Nozzlepot's Outpost.",
+		["names"] = {},
+		["confirm"] = "",
+		["text"] = "Teleported back to Nozzlepot's Outpost. All this teleportation is really taking its toll on your body...",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
