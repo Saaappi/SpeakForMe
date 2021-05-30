@@ -175,6 +175,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q014"] = { -- Quest: Mor'shan Caravan Delivery
+		["name"] = "I'm ready to ride.",
+		["names"] = {},
+		["confirm"] = "",
+		["text"] = "Mounted the caravan to deliver supplies to Mor'shan Ramparts, aiding the Horde's defense against the night elves.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
