@@ -83,6 +83,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Quests_005"] = { -- Quest: Crossroads Caravan Pickup
+		["name"] = "Yes, I'm ready. Let's do this thing!",
+		["confirm"] = "",
+		["text"] = "Spoke with Halga Bloodeye to escort the first caravan.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
