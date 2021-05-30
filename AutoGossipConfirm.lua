@@ -44,18 +44,16 @@ local function GossipFrameOptionsUpdate()
 			if optionInfoTable["name"] == t.confirms[key]["name"] then -- If the main gossip window matches what we're expecting from the confirms table.
 				C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
 				print(t.confirms[key]["text"]); -- Print the automation complete message.
-			elseif t.confirms[key]["names"] ~= {} then
+			elseif t.confirms[key]["names"] ~= {} then -- If the names subtable isn't empty, then it's being used for the quest.
 				for i = 1, #t.confirms[key]["names"] do
-					if optionInfoTable["name"] == t.confirms[key]["names"][i] then
-						C_GossipInfo.SelectOption(index);
-						print(t.confirms[key]["text"]);
+					if optionInfoTable["name"] == t.confirms[key]["names"][i] then -- If the current gossip option is in the names subtable.
+						C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
 					end
 				end
 			elseif t.confirms[key]["targets"] ~= {} then -- If the targets subtable isn't empty, then it's being used for the quest.
 				for i = 1, #t.confirms[key]["targets"] do
 					if GetUnitName("target") == t.confirms[key]["targets"][i] then -- If the player's current target is in the targets subtable.
 						C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
-						print(t.confirms[key]["text"]); -- Print the automation complete message.
 					end
 				end
 			end
