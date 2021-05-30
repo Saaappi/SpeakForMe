@@ -123,6 +123,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q010"] = { -- Quest: Club Foote
+		["name"] = "<Club him unconscious.>",
+		["confirm"] = "",
+		["text"] = "Broke a wooden club over Chief Engineer Foote's head. Looks like it hurt...",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
