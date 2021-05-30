@@ -91,15 +91,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["Q006"] = { -- Quest: Crossroads Caravan Pickup
-		["name"] = "Yes, I'm ready. Let's do this thing!",
-		["confirm"] = "",
-		["text"] = "Spoke with Halga Bloodeye to escort the first caravan.",
-		["cost"] = 0,
-		["targets"] = {},
-		["mod"] = "LALT",
-	},
-	["Q007"] = { -- Quest: Crossroads Caravan Delivery
+	["Q006"] = { -- Quest: Crossroads Caravan Delivery
 		["name"] = "Bring it on, Rocco.",
 		["confirm"] = "",
 		["text"] = "Spoke with Rocco Whipshank to escort the second caravan.",
