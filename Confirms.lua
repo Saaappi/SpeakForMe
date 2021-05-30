@@ -52,7 +52,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["mod"] = "LALT",
 	},
 	["MSV_Cho"] = { -- Lorewalker Cho in Mogu'shan Vaults
-		["name"] = 
+		["name"] = "",
 		["names"] = {
 			"What are you waiting for? Let's go investigate!",
 			"Go ahead and turn this thing on.",
