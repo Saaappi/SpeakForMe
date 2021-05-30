@@ -15,7 +15,7 @@ local addonName, t = ...;
 		mod			: The key used to disable the automation.
 ]]--
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
-	["BattlePets_AcceptBattle1"] = { -- Accepting a battle at a pet tamer.
+	["BP_Battle1"] = { -- Accepting a battle at a pet tamer.
 		["name"] = "Let's do battle!",
 		["confirm"] = "",
 		["text"] = "Accepted battle against a pet tamer.",
@@ -23,7 +23,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["BattlePets_AcceptBattle2"] = { -- Accepting a battle at a pet tamer.
+	["BP_Battle2"] = { -- Accepting a battle at a pet tamer.
 		["name"] = "Begin pet battle.",
 		["confirm"] = "",
 		["text"] = "Accepted battle against a pet tamer.",
@@ -31,7 +31,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["BattlePets_HealPets"] = { -- Healing battle pets at a Stable Master.
+	["BP_Heal"] = { -- Healing battle pets at a Stable Master.
 		["name"] = "I'd like to heal and revive my battle pets.",
 		["confirm"] = "A small fee for supplies is required.",
 		["text"] = "Healed all injured battle pets.",
@@ -39,7 +39,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["HorrificVisions_Garona"] = { -- Horrific Vision of Orgrimmar: Garona
+	["HV_Garona"] = { -- Horrific Vision of Orgrimmar: Garona
 		["name"] = "You have my aid. <Help Garona up>",
 		["confirm"] = "",
 		["text"] = "Spoke with Garona to help her up.",
@@ -47,7 +47,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["Quests_001"] = { -- Quest: Transdimensional Warfare: Chapter II
+	["Q001"] = { -- Quest: Transdimensional Warfare: Chapter II
 		["name"] = "<Use the Ambermill Dimensional Portal.>",
 		["confirm"] = "",
 		["text"] = "Used the Ambermill Dimensional Portal.",
@@ -55,7 +55,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["Quests_002"] = { -- Quest: Mix, Mingle, and Meddle
+	["Q002"] = { -- Quest: Mix, Mingle, and Meddle
 		["name"] = "Are you enjoying yourself?",
 		["confirm"] = "",
 		["text"] = "Spoke with one of the attendees.",
@@ -63,7 +63,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["Quests_003"] = { -- Quest: Welcome to the Machine
+	["Q003"] = { -- Quest: Welcome to the Machine
 		["name"] = "",
 		["confirm"] = "",
 		["text"] = "",
@@ -75,7 +75,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["mod"] = "LALT",
 	},
-	["Quests_004"] = { -- Quest: Remedial Lessons
+	["Q004"] = { -- Quest: Remedial Lessons
 		["name"] = "I will retrieve the scrolls.",
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
@@ -83,10 +83,26 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	["Quests_005"] = { -- Quest: Crossroads Caravan Pickup
+	["Q005"] = { -- Quest: Crossroads Caravan Pickup
 		["name"] = "Yes, I'm ready. Let's do this thing!",
 		["confirm"] = "",
 		["text"] = "Spoke with Halga Bloodeye to escort the first caravan.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
+	["Q006"] = { -- Quest: Crossroads Caravan Pickup
+		["name"] = "Yes, I'm ready. Let's do this thing!",
+		["confirm"] = "",
+		["text"] = "Spoke with Halga Bloodeye to escort the first caravan.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
+	["Q007"] = { -- Quest: Crossroads Caravan Delivery
+		["name"] = "Bring it on, Rocco.",
+		["confirm"] = "",
+		["text"] = "Spoke with Rocco Whipshank to escort the second caravan.",
 		["cost"] = 0,
 		["targets"] = {},
 		["mod"] = "LALT",
