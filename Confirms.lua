@@ -99,6 +99,22 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q007"] = { -- Quest: Drag it Out of Them
+		["name"] = "<Pound this chump.>",
+		["confirm"] = "",
+		["text"] = "Pounded the Razormane chump into the dirt!",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
+	["Q008"] = { -- Quest: By Hook Or By Crook
+		["name"] = "<Offer food.>",
+		["confirm"] = "",
+		["text"] = "Offered the Razormane food because completing quests quickly is fun.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
