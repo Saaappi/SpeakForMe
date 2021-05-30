@@ -115,6 +115,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q009"] = { -- Quest: The Baron's Demands
+		["name"] = "<Break Longshore's manacles and free him.>",
+		["confirm"] = "",
+		["text"] = "Broke Baron Longshore's manacles.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
