@@ -51,6 +51,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["MSV_Cho"] = { -- Lorewalker Cho: Elegon
+		["name"] = "Go ahead and turn this thing on.",
+		["names"] = {},
+		["confirm"] = "",
+		["text"] = "Lorewalker Cho is turning on the Titan machine to spawn Elegon.",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 	["Q001"] = { -- Quest: Transdimensional Warfare: Chapter II
 		["name"] = "<Use the Ambermill Dimensional Portal.>",
 		["names"] = {},
