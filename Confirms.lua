@@ -17,6 +17,7 @@ local addonName, t = ...;
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
 	["BP_Battle1"] = { -- Accepting a battle at a pet tamer.
 		["name"] = "Let's do battle!",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Accepted battle against a pet tamer.",
 		["cost"] = 0,
@@ -25,6 +26,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["BP_Battle2"] = { -- Accepting a battle at a pet tamer.
 		["name"] = "Begin pet battle.",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Accepted battle against a pet tamer.",
 		["cost"] = 0,
@@ -33,6 +35,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["BP_Heal"] = { -- Healing battle pets at a Stable Master.
 		["name"] = "I'd like to heal and revive my battle pets.",
+		["names"] = {},
 		["confirm"] = "A small fee for supplies is required.",
 		["text"] = "Healed all injured battle pets.",
 		["cost"] = 10000,
@@ -41,6 +44,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["HV_Garona"] = { -- Horrific Vision of Orgrimmar: Garona
 		["name"] = "You have my aid. <Help Garona up>",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Spoke with Garona to help her up.",
 		["cost"] = 0,
@@ -49,6 +53,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q001"] = { -- Quest: Transdimensional Warfare: Chapter II
 		["name"] = "<Use the Ambermill Dimensional Portal.>",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Used the Ambermill Dimensional Portal.",
 		["cost"] = 0,
@@ -58,6 +63,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	["Q002"] = { -- Quest: Mix, Mingle, and Meddle
 		["name"] = "Are you enjoying yourself?",
 		["confirm"] = "",
+		["names"] = {},
 		["text"] = "Spoke with one of the attendees.",
 		["cost"] = 0,
 		["targets"] = {},
@@ -65,6 +71,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q003"] = { -- Quest: Welcome to the Machine
 		["name"] = "",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
@@ -77,6 +84,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q004"] = { -- Quest: Remedial Lessons
 		["name"] = "I will retrieve the scrolls.",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
 		["cost"] = 0,
@@ -85,6 +93,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q005"] = { -- Quest: Crossroads Caravan Pickup
 		["name"] = "Yes, I'm ready. Let's do this thing!",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Spoke with Halga Bloodeye to escort the first caravan.",
 		["cost"] = 0,
@@ -93,6 +102,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q006"] = { -- Quest: Crossroads Caravan Delivery
 		["name"] = "Bring it on, Rocco.",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Spoke with Rocco Whipshank to escort the second caravan.",
 		["cost"] = 0,
@@ -101,6 +111,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q007"] = { -- Quest: Drag it Out of Them
 		["name"] = "<Pound this chump.>",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Pounded the Razormane chump into the dirt!",
 		["cost"] = 0,
@@ -109,6 +120,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q008"] = { -- Quest: By Hook Or By Crook
 		["name"] = "<Offer food.>",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Offered the Razormane food because completing quests quickly is fun.",
 		["cost"] = 0,
@@ -117,6 +129,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q009"] = { -- Quest: The Baron's Demands
 		["name"] = "<Break Longshore's manacles and free him.>",
+		["names"] = {},
 		["confirm"] = "",
 		["text"] = "Broke Baron Longshore's manacles.",
 		["cost"] = 0,
@@ -124,9 +137,13 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["mod"] = "LALT",
 	},
 	["Q010"] = { -- Quest: Club Foote
-		["name"] = "<Club him unconscious.>",
+		["name"] = "",
+		["names"] = {
+			"<Club him unconscious.>",
+			"<Rifle through his pockets.>",
+		},
 		["confirm"] = "",
-		["text"] = "Broke a wooden club over Chief Engineer Foote's head. Looks like it hurt...",
+		["text"] = "",
 		["cost"] = 0,
 		["targets"] = {},
 		["mod"] = "LALT",
