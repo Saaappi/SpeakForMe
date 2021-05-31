@@ -214,6 +214,19 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q017"] = { -- Quest: Desolation Hold Inspection
+		["name"] = "",
+		["names"] = {
+			"I'm here on behalf of Warlord Bloodhilt, who wants you to know he will be arriving shortly.",
+			"I'll be sure to tell the Taurajo refugees that. Those that lived.",
+			"Tell him yourself. He's almost here!",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
