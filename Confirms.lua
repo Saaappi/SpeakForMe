@@ -257,7 +257,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
-	-- The quests beneath this comment are NOT on Git yet.
 	["Q021"] = { -- Quest: Iterating Upon Success
 		["name"] = "I need to take a bat to the Dawning Isles.",
 		["names"] = {},
