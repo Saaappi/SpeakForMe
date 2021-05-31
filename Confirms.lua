@@ -228,8 +228,11 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["mod"] = "LALT",
 	},
 	["Q018"] = { -- Quest: Intelligence Warfare
-		["name"] = "What? Who are you? What clan are you from?",
-		["names"] = {},
+		["name"] = "",
+		["names"] = {
+			"What? Who are you? What clan are you from?",
+			"You're no orc. You're a spy! Alliance spy!",
+		},
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
