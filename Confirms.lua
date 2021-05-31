@@ -227,6 +227,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q018"] = { -- Quest: Intelligence Warfare
+		["name"] = "What? Who are you? What clan are you from?",
+		["names"] = {},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
