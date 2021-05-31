@@ -248,6 +248,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q019"] = { -- Quest: Mahka's Plea
+		["name"] = "Mahka wants you to come see her, Mankrik.",
+		["names"] = {},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
