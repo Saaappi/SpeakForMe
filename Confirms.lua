@@ -239,6 +239,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = {},
 		["mod"] = "LALT",
 	},
+	["Q019"] = { -- Quest: The Butcher of Taurajo
+		["name"] = "I am ready, Karthog. For the Horde!",
+		["names"] = {},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = {},
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
