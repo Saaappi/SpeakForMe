@@ -266,6 +266,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = nil,
 		["mod"] = "LALT",
 	},
+	["Q022"] = { -- Quest: Twilight of the Dawn Runner
+		["name"] = "Balandar sent me to get you out of here and reclaim his cargo. He's waiting for you in Brackenwall Village.",
+		["names"] = nil,
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
