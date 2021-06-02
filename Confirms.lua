@@ -25,7 +25,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
-	[2] = { -- Stable Masters
+	[2] = { -- General NPC Gossips (with Cost)
 		["names"] = {
 			"I'd like to heal and revive my battle pets.",
 		},
