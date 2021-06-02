@@ -34,7 +34,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 10000,
 		["mod"] = "LALT",
 	},
-	[45752] = { -- Quest: Transdimensional Warfare: Chapter II
+	[45752] = { -- Ambermill Dimensional Portal
 		["names"] = {
 			"<Use the Ambermill Dimensional Portal.>",
 		},
