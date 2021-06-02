@@ -13,6 +13,10 @@
 local addonName, t = ...;
 local e = CreateFrame("Frame"); -- This is the invisible frame that will listen for registered events.
 local modKeyPressed = false; -- If the mod key is pressed, then automation should be disabled.
+local unusedCreatures = {
+	1,
+	2,
+}
 
 -- Loop over the t.events array from the Events.lua file and register each event to the ScriptHandler.
 for _, event in ipairs(t.events) do
@@ -35,27 +39,24 @@ local function GossipFrameOptionsClick(confirm)
 	end
 end
 
-local function GossipFrameOptionsUpdate()
+local function GossipFrameOptionsUpdate(npcID)
 	local gossipOptions = C_GossipInfo.GetOptions(); -- Get all information about the available options.
 		
 	local index = 1;
 	for index, optionInfoTable in ipairs(gossipOptions) do -- Iterate over the Options table.
 		for key, _ in pairs(t.confirms) do -- Iterate over the t.confirms table, checking the "name" field to match against the available options.
-			if optionInfoTable["name"] == t.confirms[key]["name"] then -- If the main gossip window matches what we're expecting from the confirms table.
-				C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
-				print(t.confirms[key]["text"]); -- Print the automation complete message.
-			end
-			if t.confirms[key]["targets"] ~= nil then -- If the targets subtable isn't empty, then it's being used for the quest.
-				for i = 1, #t.confirms[key]["targets"] do
-					if GetUnitName("target") == t.confirms[key]["targets"][i] then -- If the player's current target is in the targets subtable.
-						C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
-					end
-				end
-			end
-			if t.confirms[key]["names"] ~= nil then
+			if key == npcID then -- The target's ID is in the table, so use its configuration.
 				for i = 1, #t.confirms[key]["names"] do
 					if optionInfoTable["name"] == t.confirms[key]["names"][i] then -- If the current gossip option is in the names subtable.
 						C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
+					end
+				end
+			else -- The target isn't in the table on its own, so check other options.
+				for i = 1, #unusedCreatures do
+					for j = 1, #t.confirms[i]["names"] do
+						if optionInfoTable["name"] == t.confirms[i]["names"][j] then -- If the current gossip option is in the names subtable.
+							C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
+						end
 					end
 				end
 			end
@@ -75,7 +76,12 @@ e:SetScript("OnEvent", function(self, event, ...) -- This adds an 'OnEvent' Scri
 	if event == "GOSSIP_SHOW" then
 		if modKeyPressed then -- Do nothing...
 		else
-			GossipFrameOptionsUpdate();
+			local unitGUID = UnitGUID("target");
+			if unitGUID then
+				local _, _, _, _, _, npcID = strsplit("-", unitGUID);
+				npcID = tonumber(npcID); -- npcID is a string first. The key is a number.
+				GossipFrameOptionsUpdate(npcID);
+			end
 		end
 	end
 	

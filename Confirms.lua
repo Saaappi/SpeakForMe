@@ -15,31 +15,32 @@ local addonName, t = ...;
 		mod			: The key used to disable the automation.
 ]]--
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
-	["BP_Battle1"] = { -- Accepting a battle at a pet tamer.
-		["name"] = "Let's do battle!",
-		["names"] = nil,
+	[1] = { -- General NPC Gossips (without Cost)
+		["names"] = {
+			"Let's do battle!", -- Pet Battle
+			"Begin pet battle.", -- Pet Battle
+		},
 		["confirm"] = "",
-		["text"] = "Accepted battle against a pet tamer.",
+		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
-	["BP_Battle2"] = { -- Accepting a battle at a pet tamer.
-		["name"] = "Begin pet battle.",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Accepted battle against a pet tamer.",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["BP_Heal"] = { -- Healing battle pets at a Stable Master.
-		["name"] = "I'd like to heal and revive my battle pets.",
-		["names"] = nil,
+	[2] = { -- Stable Masters
+		["names"] = {
+			"I'd like to heal and revive my battle pets.",
+		},
 		["confirm"] = "A small fee for supplies is required.",
-		["text"] = "Healed all injured battle pets.",
+		["text"] = "",
 		["cost"] = 10000,
-		["targets"] = nil,
+		["mod"] = "LALT",
+	},
+	[66824] = { -- Grand Master Obalis
+		["names"] = {
+			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
+		},
+		["confirm"] = "Come at me!",
+		["text"] = "",
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	["HV_Garona"] = { -- Horrific Vision of Orgrimmar: Garona
