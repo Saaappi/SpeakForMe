@@ -44,6 +44,41 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = nil,
 		["mod"] = "LALT",
 	},
+	[47442] = { -- Johnny Awesome
+		["names"] = {
+			"Well, we are having some problems at the Sludge Fields, located northeast of here. Warden Stillwater could use your help.",
+			"That's all.",
+			"THAT'S ALL, JOHNNY AWESOME. TAKE IT OR LEAVE IT!",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
+	[47443] = { -- Kingslayer Orkus
+		["names"] = {
+			"Um... Apparently there is some trouble at Southshore. Something about worgen insurgents. Maybe you could help with them?",
+			"None.",
+			"Right, thanks. Just go ahead and head southeast. More south than east. Probably off the coast.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
+	[47444] = { -- Dumass
+		["names"] = {
+			"Maybe you should go take a nap or something. I don't know if I have any work for you.",
+			"Wait a minute. It looks like something just came up. Yes, right here on this sheet of paper. You need to head southeast to the Azurelode Mine and report to Captain Keyton. Southeast is that way *you point southeast*.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
 	[66824] = { -- Grand Master Obalis
 		["names"] = {
 			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
@@ -81,19 +116,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["text"] = "Spoke with one of the attendees.",
 		["cost"] = 0,
 		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["Q003"] = { -- Quest: Welcome to the Machine
-		["name"] = "",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "",
-		["cost"] = 0,
-		["targets"] = {
-			"Dumass",
-			"Kingslayer Orkus",
-			"Johnny Awesome",
-		},
 		["mod"] = "LALT",
 	},
 	["Q004"] = { -- Quest: Remedial Lessons
