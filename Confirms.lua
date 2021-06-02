@@ -79,6 +79,17 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = nil,
 		["mod"] = "LALT",
 	},
+	[61348] = { -- Lorewalker Cho (Mogu'shan Vaults)
+		["names"] = {
+			"What are you waiting for? Let's go investigate!",
+			"Go ahead and turn this thing on.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
 	[66824] = { -- Grand Master Obalis
 		["names"] = {
 			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
@@ -93,18 +104,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = nil,
 		["confirm"] = "",
 		["text"] = "Spoke with Garona to help her up.",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["MSV_Cho"] = { -- Lorewalker Cho in Mogu'shan Vaults
-		["name"] = "",
-		["names"] = {
-			"What are you waiting for? Let's go investigate!",
-			"Go ahead and turn this thing on.",
-		},
-		["confirm"] = "",
-		["text"] = "",
 		["cost"] = 0,
 		["targets"] = nil,
 		["mod"] = "LALT",
