@@ -34,6 +34,16 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 10000,
 		["mod"] = "LALT",
 	},
+	[45752] = { -- Quest: Transdimensional Warfare: Chapter II
+		["names"] = {
+			"<Use the Ambermill Dimensional Portal.>",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
 	[66824] = { -- Grand Master Obalis
 		["names"] = {
 			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
@@ -60,15 +70,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["text"] = "",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["Q001"] = { -- Quest: Transdimensional Warfare: Chapter II
-		["name"] = "<Use the Ambermill Dimensional Portal.>",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Used the Ambermill Dimensional Portal.",
 		["cost"] = 0,
 		["targets"] = nil,
 		["mod"] = "LALT",
