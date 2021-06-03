@@ -34,6 +34,24 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 10000,
 		["mod"] = "LALT",
 	},
+	[34258] = { -- Halga Bloodeye
+		["names"] = {
+			"Yes, I'm ready. Let's do this thing!",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[34578] = { -- Rocco Whipshank
+		["names"] = {
+			"Bring it on, Rocco.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[45752] = { -- Ambermill Dimensional Portal
 		["names"] = {
 			"<Use the Ambermill Dimensional Portal.>",
@@ -41,7 +59,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	[47442] = { -- Johnny Awesome
@@ -53,7 +70,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	[47443] = { -- Kingslayer Orkus
@@ -65,7 +81,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	[47444] = { -- Dumass
@@ -76,7 +91,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	[48218] = { -- Kingslayer Orkus
@@ -86,7 +100,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	[61348] = { -- Lorewalker Cho (Mogu'shan Vaults)
@@ -97,7 +110,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	[66824] = { -- Grand Master Obalis
@@ -159,24 +171,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = nil,
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["Q005"] = { -- Quest: Crossroads Caravan Pickup
-		["name"] = "Yes, I'm ready. Let's do this thing!",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Spoke with Halga Bloodeye to escort the first caravan.",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["Q006"] = { -- Quest: Crossroads Caravan Delivery
-		["name"] = "Bring it on, Rocco.",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Spoke with Rocco Whipshank to escort the second caravan.",
 		["cost"] = 0,
 		["targets"] = nil,
 		["mod"] = "LALT",
