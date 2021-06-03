@@ -43,6 +43,24 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[34503] = { -- Razormane Pillager
+		["names"] = {
+			"<Pound this chump.>",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[34523] = { -- Captured Razormane
+		["names"] = {
+			"<Offer food.>",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[34578] = { -- Rocco Whipshank
 		["names"] = {
 			"Bring it on, Rocco.",
@@ -171,24 +189,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = nil,
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["Q007"] = { -- Quest: Drag it Out of Them
-		["name"] = "<Pound this chump.>",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Pounded the Razormane chump into the dirt!",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
-	["Q008"] = { -- Quest: By Hook Or By Crook
-		["name"] = "<Offer food.>",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Offered the Razormane food because completing quests quickly is fun.",
 		["cost"] = 0,
 		["targets"] = nil,
 		["mod"] = "LALT",
