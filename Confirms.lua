@@ -139,6 +139,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[152993] = { -- Garona Halforcen (Vision of Orgrimmar)
+		["names"] = {
+			"You have my aid. <Help Garona up>",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[158765] = { -- Pelodis
 		["names"] = {
 			"I'm ready for formation training.",
@@ -166,22 +175,12 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
-	["HV_Garona"] = { -- Horrific Vision of Orgrimmar: Garona
-		["name"] = "You have my aid. <Help Garona up>",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Spoke with Garona to help her up.",
-		["cost"] = 0,
-		["targets"] = nil,
-		["mod"] = "LALT",
-	},
 	["Q002"] = { -- Quest: Mix, Mingle, and Meddle
 		["name"] = "Are you enjoying yourself?",
 		["confirm"] = "",
 		["names"] = nil,
 		["text"] = "Spoke with one of the attendees.",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q004"] = { -- Quest: Remedial Lessons
@@ -190,7 +189,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q009"] = { -- Quest: The Baron's Demands
@@ -199,7 +197,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "Broke Baron Longshore's manacles.",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q010"] = { -- Quest: Club Foote
@@ -211,7 +208,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q011"] = { -- Quest: Wenikee Boltbucket
@@ -220,7 +216,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "Teleported to another part of Northern Barrens. Oh. You don't look so good.",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q012"] = { -- Quest: Return to Samophlanger
@@ -229,7 +224,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "Teleported back to Nozzlepot's Outpost. All this teleportation is really taking its toll on your body...",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q013"] = { -- Quest: Mor'shan Caravan Pick-Up
@@ -238,7 +232,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "Mounted the caravan for a long trek across Northern Barrens.",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q014"] = { -- Quest: Mor'shan Caravan Delivery
@@ -247,7 +240,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "Mounted the caravan to deliver supplies to Mor'shan Ramparts, aiding the Horde's defense against the night elves.",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q015"] = { -- Quest: Warriors' Redemption
@@ -256,7 +248,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q016"] = { -- Quest: The Nightmare Scar
@@ -265,7 +256,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q017"] = { -- Quest: Desolation Hold Inspection
@@ -278,7 +268,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q018"] = { -- Quest: Intelligence Warfare
@@ -290,7 +279,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q019"] = { -- Quest: The Butcher of Taurajo
@@ -299,7 +287,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q020"] = { -- Quest: Mahka's Plea
@@ -308,7 +295,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q021"] = { -- Quest: Iterating Upon Success
@@ -317,7 +303,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 	["Q022"] = { -- Quest: Twilight of the Dawn Runner
@@ -326,7 +311,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
-		["targets"] = nil,
 		["mod"] = "LALT",
 	},
 };
