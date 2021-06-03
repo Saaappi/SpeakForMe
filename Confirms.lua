@@ -34,6 +34,24 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 10000,
 		["mod"] = "LALT",
 	},
+	[3467] = { -- Baron Longshore
+		["names"] = {
+			"<Break Longshore's manacles and free him.>",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[9316] = { -- Wenikee Boltbucket
+		["names"] = {
+			"Send me back to Nozzlepot's Outpost.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[34258] = { -- Halga Bloodeye
 		["names"] = {
 			"Yes, I'm ready. Let's do this thing!",
@@ -64,6 +82,25 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[34578] = { -- Rocco Whipshank
 		["names"] = {
 			"Bring it on, Rocco.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[34674] = { -- Brak Blusterpipe
+		["names"] = {
+			"I'm ready to teleport. I think.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[34754] = { -- Chief Engineer Foote
+		["names"] = {
+			"<Club him unconscious.>",
+			"<Rifle through his pockets.>",
 		},
 		["confirm"] = "",
 		["text"] = "",
@@ -188,41 +225,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = nil,
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q009"] = { -- Quest: The Baron's Demands
-		["name"] = "<Break Longshore's manacles and free him.>",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Broke Baron Longshore's manacles.",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q010"] = { -- Quest: Club Foote
-		["name"] = "",
-		["names"] = {
-			"<Club him unconscious.>",
-			"<Rifle through his pockets.>",
-		},
-		["confirm"] = "",
-		["text"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q011"] = { -- Quest: Wenikee Boltbucket
-		["name"] = "I'm ready to teleport. I think.",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Teleported to another part of Northern Barrens. Oh. You don't look so good.",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q012"] = { -- Quest: Return to Samophlanger
-		["name"] = "Send me back to Nozzlepot's Outpost.",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Teleported back to Nozzlepot's Outpost. All this teleportation is really taking its toll on your body...",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
