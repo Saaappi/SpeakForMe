@@ -79,6 +79,16 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["targets"] = nil,
 		["mod"] = "LALT",
 	},
+	[48218] = { -- Kingslayer Orkus
+		["names"] = {
+			"Your feet are touching the ground, Orkus. This is shallow water. Just stand up and walk to shore.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["targets"] = nil,
+		["mod"] = "LALT",
+	},
 	[61348] = { -- Lorewalker Cho (Mogu'shan Vaults)
 		["names"] = {
 			"What are you waiting for? Let's go investigate!",
