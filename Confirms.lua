@@ -109,6 +109,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[158765] = { -- Pelodis
+		["names"] = {
+			"I'm ready for formation training.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[169027] = { -- Helpful Steward (for the fixes)
 		["names"] = {
 			"Can you help with this problem?",
