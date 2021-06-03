@@ -109,6 +109,24 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[169027] = { -- Helpful Steward (for the fixes)
+		["names"] = {
+			"Can you help with this problem?",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[169078] = { -- Helpful Steward (to get them to follow you)
+		["names"] = {
+			"Can you help me with something?",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	["HV_Garona"] = { -- Horrific Vision of Orgrimmar: Garona
 		["name"] = "You have my aid. <Help Garona up>",
 		["names"] = nil,
