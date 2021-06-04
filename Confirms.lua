@@ -157,6 +157,24 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[52207] = { -- Nagala Whipshank
+		["names"] = {
+			"I'm ready to ride.",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[52220] = { -- Rocco Whipshank
+		["names"] = {
+			"I'm ready. Let's go!",
+		},
+		["confirm"] = "",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[61348] = { -- Lorewalker Cho (Mogu'shan Vaults)
 		["names"] = {
 			"What are you waiting for? Let's go investigate!",
@@ -172,6 +190,15 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
 		},
 		["confirm"] = "Come at me!",
+		["text"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[88228] = { -- Sergeant Grimjaw
+		["names"] = {
+			"Prepare to battle the Gorens.",
+		},
+		["confirm"] = "",
 		["text"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
@@ -225,22 +252,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = nil,
 		["confirm"] = "",
 		["text"] = "Spoke with Voitha to retrieve the scrolls.",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q013"] = { -- Quest: Mor'shan Caravan Pick-Up
-		["name"] = "I'm ready. Let's go!",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Mounted the caravan for a long trek across Northern Barrens.",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q014"] = { -- Quest: Mor'shan Caravan Delivery
-		["name"] = "I'm ready to ride.",
-		["names"] = nil,
-		["confirm"] = "",
-		["text"] = "Mounted the caravan to deliver supplies to Mor'shan Ramparts, aiding the Horde's defense against the night elves.",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
