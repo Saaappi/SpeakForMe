@@ -17,8 +17,9 @@ local addonName, t = ...;
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
 	[1] = { -- General NPC Gossips (without Cost)
 		["names"] = {
-			"Let's do battle!", -- Pet Battle
+			"Are you enjoying yourself?", -- Quest: Mix, Mingle, and Meddle
 			"Begin pet battle.", -- Pet Battle
+			"Let's do battle!", -- Pet Battle
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -43,6 +44,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[9316] = { -- Wenikee Boltbucket
 		["names"] = {
 			"Send me back to Nozzlepot's Outpost.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[17119] = { -- Ithania
+		["names"] = {
+			"Balandar sent me to get you out of here and reclaim his cargo. He's waiting for you in Brackenwall Village.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -148,6 +157,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[44825] = { -- Bat Handler Maggotbreath
+		["names"] = {
+			"I need to take a bat to the Dawning Isles.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[45752] = { -- Ambermill Dimensional Portal
 		["names"] = {
 			"<Use the Ambermill Dimensional Portal.>",
@@ -242,6 +259,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[156327] = { -- Voitha
+		["names"] = {
+			"I will retrieve the scrolls.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[158765] = { -- Pelodis
 		["names"] = {
 			"I'm ready for formation training.",
@@ -262,34 +287,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Can you help me with something?",
 		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q002"] = { -- Quest: Mix, Mingle, and Meddle
-		["name"] = "Are you enjoying yourself?",
-		["confirm"] = "",
-		["names"] = nil,
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q004"] = { -- Quest: Remedial Lessons
-		["name"] = "I will retrieve the scrolls.",
-		["names"] = nil,
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q021"] = { -- Quest: Iterating Upon Success
-		["name"] = "I need to take a bat to the Dawning Isles.",
-		["names"] = nil,
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q022"] = { -- Quest: Twilight of the Dawn Runner
-		["name"] = "Balandar sent me to get you out of here and reclaim his cargo. He's waiting for you in Brackenwall Village.",
-		["names"] = nil,
 		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
