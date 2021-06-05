@@ -97,6 +97,57 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[37167] = { -- Stonetalon Prisoner
+		["names"] = {
+			"I recovered your armor and weapons. Victory or death!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[37570] = { -- Naralex
+		["names"] = {
+			"I'm ready, Naralex.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[37811] = { -- Warlord Gar'dul
+		["names"] = {
+			"I'm here on behalf of Warlord Bloodhilt, who wants you to know he will be arriving shortly.",
+			"I'll be sure to tell the Taurajo refugees that. Those that lived.",
+			"Tell him yourself. He's almost here!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[37847] = { -- Mankrik
+		["names"] = {
+			"Mahka wants you to come see her, Mankrik.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[38015] = { -- Karthog
+		["names"] = {
+			"I am ready, Karthog. For the Horde!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[38033] = { -- Awkward Gangly Orc
+		["names"] = {
+			"What? Who are you? What clan are you from?",
+			"You're no orc. You're a spy! Alliance spy!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 	[45752] = { -- Ambermill Dimensional Portal
 		["names"] = {
 			"<Use the Ambermill Dimensional Portal.>",
@@ -224,55 +275,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	["Q004"] = { -- Quest: Remedial Lessons
 		["name"] = "I will retrieve the scrolls.",
-		["names"] = nil,
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q015"] = { -- Quest: Warriors' Redemption
-		["name"] = "I recovered your armor and weapons. Victory or death!",
-		["names"] = nil,
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q016"] = { -- Quest: The Nightmare Scar
-		["name"] = "I'm ready, Naralex.",
-		["names"] = nil,
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q017"] = { -- Quest: Desolation Hold Inspection
-		["name"] = "",
-		["names"] = {
-			"I'm here on behalf of Warlord Bloodhilt, who wants you to know he will be arriving shortly.",
-			"I'll be sure to tell the Taurajo refugees that. Those that lived.",
-			"Tell him yourself. He's almost here!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q018"] = { -- Quest: Intelligence Warfare
-		["name"] = "",
-		["names"] = {
-			"What? Who are you? What clan are you from?",
-			"You're no orc. You're a spy! Alliance spy!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q019"] = { -- Quest: The Butcher of Taurajo
-		["name"] = "I am ready, Karthog. For the Horde!",
-		["names"] = nil,
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	["Q020"] = { -- Quest: Mahka's Plea
-		["name"] = "Mahka wants you to come see her, Mankrik.",
 		["names"] = nil,
 		["confirm"] = "",
 		["cost"] = 0,
