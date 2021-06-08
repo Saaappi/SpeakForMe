@@ -291,6 +291,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[141488] = { -- Zidormi (Tirisfal Glades)
+		["names"] = {
+			"Can you show me what Tirisfal Glades was like before the Battle for Lordaeron?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
