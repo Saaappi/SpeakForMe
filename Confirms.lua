@@ -300,6 +300,46 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[160272] = { -- Kynthia
+		["names"] = {
+			"Let us begin.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[171747] = { -- Project Lead Allen
+		["names"] = {
+			"I will assist you.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[166148] = { -- Sawn
+		["names"] = {
+			"I will assist you.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[152418] = { -- Gallath
+		["names"] = {
+			"Yes, I will help.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[172259] = { -- Duskleaf
+		["names"] = {
+			"Yes, I will help.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
