@@ -372,6 +372,22 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[165419] = { -- Grand Marshal Mudrag
+		["names"] = {
+			"I'm ready.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[160917] = { -- Grimshadow
+		["names"] = {
+			"<Ride Grimshadow.>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
