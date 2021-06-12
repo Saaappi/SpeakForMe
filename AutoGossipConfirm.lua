@@ -76,7 +76,7 @@ e:SetScript("OnEvent", function(self, event, ...) -- This adds an 'OnEvent' Scri
 	if event == "GOSSIP_SHOW" then
 		if modKeyPressed then -- Do nothing...
 		else
-			local unitGUID = UnitGUID("target");
+			local unitGUID = UnitGUID("target") or UnitGUID("mouseover");
 			if unitGUID then
 				local _, _, _, _, _, npcID = strsplit("-", unitGUID);
 				npcID = tonumber(npcID); -- npcID is a string first. The key is a number.

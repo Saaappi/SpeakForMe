@@ -388,6 +388,54 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[171946] = { -- Lady Moonberry
+		["names"] = {
+			"I'm ready to rain sparkly terror.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[160998] = { -- Altar of the Daredevil
+		["names"] = {
+			"Put on the Faceless Mask of the Daredevil.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[160961] = { -- Altar of the Dark Imagination
+		["names"] = {
+			"Put on the Faceless Mask of the Dark Imagination.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[161000] = { -- Altar of the Pained
+		["names"] = {
+			"Put on the Faceless Mask of the Pained.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[160967] = { -- Altar of the Burned Bridge
+		["names"] = {
+			"Put on the Faceless Mask of the Burned Bridge.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[160999] = { -- Altar of the Long Night
+		["names"] = {
+			"Put on the Faceless Mask of the Long Night.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
