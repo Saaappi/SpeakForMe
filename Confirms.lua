@@ -464,6 +464,22 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[78423] = { -- Archmage Khadgar
+		["names"] = {
+			"FOR AZEROTH!",
+		},
+		["confirm"] = "You are about to embark on a dangerous mission, and you may not be able to return immediately. Are you sure?",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[78556] = { -- Ariok
+		["names"] = {
+			"Khadgar has asked us to go distract the Eye of Kilrogg.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
