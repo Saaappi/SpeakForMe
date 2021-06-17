@@ -547,6 +547,8 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[67990] = { -- Lor'themar Theron
 		["names"] = {
 			"I am ready to launch the assault [Queue for solo instance.]",
+			"I'm ready to tear down the wall! [Queue for solo instance.]",
+			"I am ready! [Queue for solo instance.]",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -555,6 +557,22 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[69620] = { -- Scout Captain Elsia
 		["names"] = {
 			"I am ready.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[70358] = { -- Scout Captain Elsia
+		["names"] = {
+			"I'm ready to go.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[70371] = { -- Lor'themar Theron
+		["names"] = {
+			"I am ready! [Queue for solo instance.]",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
