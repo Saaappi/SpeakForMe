@@ -520,6 +520,46 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[69565] = { -- Scout Captain Elsia
+		["names"] = {
+			"Here are the explosives, Elsia.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[69810] = { -- Taoshi
+		["names"] = {
+			"Alright. Let's go.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[70297] = { -- Taoshi
+		["names"] = {
+			"I'm with you. Let's break into that shipyard! [Queue for solo instance.]",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[67990] = { -- Lor'themar Theron
+		["names"] = {
+			"I am ready to launch the assault [Queue for solo instance.]",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[69620] = { -- Scout Captain Elsia
+		["names"] = {
+			"I am ready.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
