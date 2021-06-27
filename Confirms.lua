@@ -578,6 +578,38 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[149626] = { -- Vanguard Battlemage (Alliance)
+		["names"] = {
+			"I must help Khadgar. Send me to the Blasted Lands!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[79243] = { -- Baros Alexston
+		["names"] = {
+			"We have everything we need. It's time to build the garrison.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[84455] = { -- Assistant Brightstone
+		["names"] = {
+			"Time to get back to work.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[81441] = { -- Shelly Hamby
+		["names"] = {
+			"Gather Shelly's report.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
