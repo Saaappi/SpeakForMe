@@ -610,6 +610,22 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[72871] = { -- All-Seeing Eye
+		["names"] = {
+			"Begin the compulsion of the All-Seeing Eye.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[167032] = { -- Chromie
+		["names"] = {
+			"Select a different timeline.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
