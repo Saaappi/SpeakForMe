@@ -626,6 +626,38 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[42383] = { -- Transient
+		["names"] = {
+			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
+		},
+		["confirm"] = "Are you sure you want to give this hobo money?",
+		["cost"] = 50,
+		["mod"] = "LALT",
+	},
+	[42384] = { -- Homeless Stormwind Citizen
+		["names"] = {
+			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
+		},
+		["confirm"] = "Are you sure you want to give this hobo money?",
+		["cost"] = 50,
+		["mod"] = "LALT",
+	},
+	[42386] = { -- Homeless Stormwind Citizen
+		["names"] = {
+			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
+		},
+		["confirm"] = "Are you sure you want to give this hobo money?",
+		["cost"] = 50,
+		["mod"] = "LALT",
+	},
+	[42391] = { -- West Plains Drifter
+		["names"] = {
+			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
+		},
+		["confirm"] = "Are you sure you want to give this hobo money?",
+		["cost"] = 50,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
