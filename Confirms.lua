@@ -718,6 +718,58 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[165052] = { -- Vial Master Lurgy
+		["names"] = {
+			"Is there any way I can help?",
+			"O.K.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[157313] = { -- Foul-Tongue Cyrlix
+		["names"] = {
+			"Is there any way I can help?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[157945] = { -- Boil Master Yetch
+		["names"] = {
+			"Is there any way I can help?",
+			"O.K.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[159824] = { -- Gunn Gorgebone
+		["names"] = {
+			"Is there anything you need?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[159827] = { -- Scrapper Minoire
+		["names"] = {
+			"Is there anything you need?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[159696] = { -- Rencissa the Dynamo
+		["names"] = {
+			"Is there anything you need?",
+			"Here--this is the biggest rock I could find.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
