@@ -666,6 +666,34 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[166980] = { -- Lady Jaina Proudmoore
+		["names"] = {
+			"I am ready.",
+			"Tell me about this place.",
+			"Tell me more of the Jailer.",
+			"What about the others who were taken?",
+			"<Lie low and observe.>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[165918] = { -- Highlord Darion Mograine
+		["names"] = {
+			"Make it talk.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[174871] = { -- Fatescribe Roh-Tahl
+		["names"] = {
+			"I am ready to choose my fate in the Shadowlands.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
