@@ -850,6 +850,30 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[159427] = { -- Elder Finnan
+		["names"] = {
+			"The Lady of the Falls wanted to make sure you were safe.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[159465] = { -- Elder Gwenna
+		["names"] = {
+			"The Lady of the Falls wanted to make sure you were safe.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[159428] = { -- Groonoomcrooek
+		["names"] = {
+			"The Lady of the Falls wanted to make sure you were safe.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
