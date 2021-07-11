@@ -47,14 +47,14 @@ local function GossipFrameOptionsUpdate(npcID)
 		for key, _ in pairs(t.confirms) do -- Iterate over the t.confirms table, checking the "name" field to match against the available options.
 			if key == npcID then -- The target's ID is in the table, so use its configuration.
 				for i = 1, #t.confirms[key]["names"] do
-					if optionInfoTable["name"] == t.confirms[key]["names"][i] then -- If the current gossip option is in the names subtable.
+					if (string.find(optionInfoTable["name"], t.confirms[key]["names"][i])) then -- If the current gossip option is in the names subtable.
 						C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
 					end
 				end
 			else -- The target isn't in the table on its own, so check other options.
 				for i = 1, #unusedCreatures do
 					for j = 1, #t.confirms[i]["names"] do
-						if optionInfoTable["name"] == t.confirms[i]["names"][j] then -- If the current gossip option is in the names subtable.
+						if (string.find(optionInfoTable["name"], t.confirms[i]["names"][j])) then -- If the current gossip option is in the names subtable.
 							C_GossipInfo.SelectOption(index); -- Select the option since we found a match.
 						end
 					end

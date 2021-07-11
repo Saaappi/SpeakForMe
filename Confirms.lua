@@ -874,6 +874,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[167918] = { -- Bela
+		["names"] = {
+			"<Ask about suspicious activity>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
