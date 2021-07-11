@@ -755,6 +755,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[159827] = { -- Scrapper Minoire
 		["names"] = {
 			"Is there anything you need?",
+			"Here are the enhancers you wanted.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -769,7 +770,62 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
-	
+	[161710] = { -- Marcel Mullby
+		["names"] = {
+			"I have some bloodtusk skulls for you.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[163084] = { -- Tester Sahaari
+		["names"] = {
+			"Very well. Let us fight.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[163083] = { -- Valuator Malus
+		["names"] = {
+			"Very well. Let us fight.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[164492] = { -- Arena Spectator
+		["names"] = {
+			"Au'narim claims you owe her anima.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[164507] = { -- Arena Spectator
+		["names"] = {
+			"Au'narim claims you owe her anima.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[164508] = { -- Arena Spectator
+		["names"] = {
+			"Au'narim claims you owe her anima.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[166657] = { -- Ta'eran
+		["names"] = {
+			"Tell me about this opportunity.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
