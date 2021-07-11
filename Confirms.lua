@@ -1010,6 +1010,55 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[172431] = { -- Lady Moonberry
+		["names"] = {
+			"Lead on.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[158543] = { -- Attendant Sparkledew
+		["names"] = {
+			"Take me to the Queen's audience chamber, please.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[165550] = { -- Attendant Shimmerwing
+		["names"] = {
+			"I would like to leave the Queen's audience chamber, please.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[172677] = { -- Niya
+		["names"] = {
+			"I am ready to begin.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[164079] = { -- Highlord Bolvar Fordragon
+		["names"] = {
+			"Skip ahead to finish the Torghast chapter and have Torghast, Ve'nari, and the Runecarver unlocked.",
+			"Skip ahead to Korthia.",
+		},
+		["confirm"] = "Are you sure? This action cannot be undone.",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[177136] = { -- Polemarch Adrestes
+		["names"] = {
+			"<Ask Adrestes what happened in Elysian Hold.>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
