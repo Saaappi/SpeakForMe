@@ -882,6 +882,134 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[167849] = { -- Soul of Keltesh
+		["names"] = {
+			"<Ask about suspicious activity>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[156295] = { -- Courier Rokalai
+		["names"] = {
+			"<Ask about suspicious activity>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[167838] = { -- Globknob
+		["names"] = {
+			"<Ask about suspicious activity>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[167717] = { -- Darkhaven Villager
+		["names"] = {
+			"<Request tithe>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[167744] = { -- Darkhaven Villager
+		["names"] = {
+			"<Request tithe>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[167746] = { -- Darkhaven Villager
+		["names"] = {
+			"<Request tithe>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[168237] = { -- Ilka
+		["names"] = {
+			"<Present Lajos's invitation>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[168238] = { -- Samu
+		["names"] = {
+			"<Present Lajos's invitation>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[169238] = { -- Courier Araak
+		["names"] = {
+			"Dimwiddle sent me.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[166541] = { -- Cobwobble
+		["names"] = {
+			"What are you all doing?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[166543] = { -- Dobwobble
+		["names"] = {
+			"Why are the ones with scribbles interesting?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[166542] = { -- Slobwobble
+		["names"] = {
+			"Where does the Taskmaster keep the sinstones?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[165921] = { -- Courier Araak
+		["names"] = {
+			"We are ready. Please tell the Taskmaster the Maw Walker is here.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[164420] = { -- Laurent
+		["names"] = {
+			"I am ready.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[160163] = { -- The Accuser
+		["names"] = {
+			"I'm ready. Begin the ritual.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[160233] = { -- The Accuser
+		["names"] = {
+			"I'm ready. Begin the ritual.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
