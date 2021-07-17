@@ -1099,6 +1099,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[160956] = { -- Watcher Emil
+		["names"] = {
+			"Let's go!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
