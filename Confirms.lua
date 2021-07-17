@@ -1059,9 +1059,41 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[159946] = { -- The Countess
+		["names"] = {
+			"House Darkvein",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 	[165662] = { -- The Countess
 		["names"] = {
 			"<Deliver Prince Renathal's invitation.>",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[159883] = { -- Chancellor Codrin
+		["names"] = {
+			"You stand accused of conspiring to overthrow The Countess.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[160941] = { -- The Curator
+		["names"] = {
+			"What happened to the Medallion of Avarice?",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[161056] = { -- Guard Captain Elizabeta
+		["names"] = {
+			"The Curator sent me. I'm looking for Watcher Emil.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
