@@ -195,8 +195,8 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	[47444] = { -- Dumass
 		["names"] = {
-			"Maybe you should go take a nap or something. I don't know if I have any work for you.",
-			"Wait a minute. It looks like something just came up. Yes, right here on this sheet of paper. You need to head southeast to the Azurelode Mine and report to Captain Keyton. Southeast is that way *you point southeast*.",
+			"Maybe you should go take a nap or something.",
+			"Wait a minute.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
