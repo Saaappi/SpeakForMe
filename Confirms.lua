@@ -210,6 +210,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[48503] = { -- Kingslayer Orkus
+		["names"] = {
+			"I am ready.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 	[52207] = { -- Nagala Whipshank
 		["names"] = {
 			"I'm ready to ride.",
