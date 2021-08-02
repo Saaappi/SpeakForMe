@@ -22,6 +22,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Let's do battle!",
 			"I am ready to go.",
 			"I am ready.",
+			"There is no time left. Run!",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -1299,6 +1300,38 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[95403] = { -- Windmaster Julan
 		["names"] = {
 			"Take the Windmaster's Totem.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[98773] = { -- Lasan Skyhorn
+		["names"] = {
+			"Yes!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[96591] = { -- Amateur Hunter
+		["names"] = {
+			"Go hunt somewhere else!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[98804] = { -- Amateur Hunter
+		["names"] = {
+			"Go hunt somewhere else!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[94434] = { -- Addie Fizzlebog
+		["names"] = {
+			"Let's go hunting!",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
