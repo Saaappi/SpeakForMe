@@ -18,8 +18,10 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[1] = { -- General NPC Gossips (without Cost)
 		["names"] = {
 			"Are you enjoying yourself?", -- Quest: Mix, Mingle, and Meddle
-			"Begin pet battle.", -- Pet Battle
-			"Let's do battle!", -- Pet Battle
+			"Begin pet battle.",
+			"Let's do battle!",
+			"I am ready to go.",
+			"I am ready.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -196,7 +198,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[47444] = { -- Dumass
 		["names"] = {
 			"Maybe you should go take a nap or something.",
-			"Wait a minute.",
+			"Wait a minute. It looks like something just came up.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -1110,6 +1112,193 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[160956] = { -- Watcher Emil
 		["names"] = {
 			"Let's go!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[104739] = { -- Tyrande Whisperwind
+		["names"] = {
+			"By my honor you will come to no harm, priestess.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[92734] = { -- Penelope Heathrow
+		["names"] = {
+			"It's safe now.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[94974] = { -- Sirius Ebonwing
+		["names"] = {
+			"Excuse me...",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[94975] = { -- Asha Ravensong
+		["names"] = {
+			"Arduen sent me. You're free.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[94976] = { -- Cassiel Nightthorn
+		["names"] = {
+			"Be at peace.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[135440] = { -- Princess Talanji
+		["names"] = {
+			"Take me to King Rastakhan.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[137675] = { -- Shadow Hunter Ty'jin
+		["names"] = {
+			"I'm ready to parley, Ty'jin.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[137798] = { -- Boatswain Taryn
+		["names"] = {
+			"Got some new orders from the captain for you, boatswain.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[137800] = { -- Quartermaster Killian
+		["names"] = {
+			"We're saying no to the Ashvane.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[137807] = { -- Navigator Swink
+		["names"] = {
+			"Orders from the captain, sir.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[139524] = { -- Erul Dawnbrook
+		["names"] = {
+			"Take us back to Zuldazar.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[143913] = { -- Eitrigg
+		["names"] = {
+			"Yes, I'm ready to go to Drustvar.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[137613] = { -- Hobart Grapplehammer
+		["names"] = {
+			"Your friends were all tortured and killed by witches.",
+			"Sure.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[137397] = { -- Wormhole
+		["names"] = {
+			"Reach inside and pull something out.",
+			"Reach inside and pull out something that feels more like a building.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[139519] = { -- Swellthrasher
+		["names"] = {
+			"Take us back to Zuldazar.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99745] = { -- Snazzle Shinyfinder
+		["names"] = {
+			"Go find shiny!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99746] = { -- Trytooth Hardchisel
+		["names"] = {
+			"You kill basilisk!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99747] = { -- Kindle Candlecrafter
+		["names"] = {
+			"Make big candle! Lots of wax!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99748] = { -- Dug Digger
+		["names"] = {
+			"Dig rocks, find pretties!",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99781] = { -- Snazzle Shinyfinder
+		["names"] = {
+			"You keep one. I keep rest.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99782] = { -- Trytooth Hardchisel
+		["names"] = {
+			"Best kill job me seen!",
+			"Give Trytooth the boot.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[99784] = { -- Kindle Candlecrafter
+		["names"] = {
+			"Me think me have just the right touch...",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
+	[95403] = { -- Windmaster Julan
+		["names"] = {
+			"Take the Windmaster's Totem.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
