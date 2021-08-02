@@ -22,6 +22,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Let's do battle!",
 			"I am ready to go.",
 			"I am ready.",
+			"I'm ready",
 			"There is no time left. Run!",
 		},
 		["confirm"] = "",
@@ -60,14 +61,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[34258] = { -- Halga Bloodeye
-		["names"] = {
-			"Yes, I'm ready. Let's do this thing!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[34503] = { -- Razormane Pillager
 		["names"] = {
 			"<Pound this chump.>",
@@ -92,14 +85,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[34674] = { -- Brak Blusterpipe
-		["names"] = {
-			"I'm ready to teleport. I think.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[34754] = { -- Chief Engineer Foote
 		["names"] = {
 			"<Club him unconscious.>",
@@ -112,14 +97,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[37167] = { -- Stonetalon Prisoner
 		["names"] = {
 			"I recovered your armor and weapons. Victory or death!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[37570] = { -- Naralex
-		["names"] = {
-			"I'm ready, Naralex.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -138,14 +115,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[37847] = { -- Mankrik
 		["names"] = {
 			"Mahka wants you to come see her, Mankrik.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[38015] = { -- Karthog
-		["names"] = {
-			"I am ready, Karthog. For the Horde!",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -213,30 +182,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[48503] = { -- Kingslayer Orkus
-		["names"] = {
-			"I am ready.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[52207] = { -- Nagala Whipshank
-		["names"] = {
-			"I'm ready to ride.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[52220] = { -- Rocco Whipshank
-		["names"] = {
-			"I'm ready. Let's go!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[61348] = { -- Lorewalker Cho (Mogu'shan Vaults)
 		["names"] = {
 			"What are you waiting for? Let's go investigate!",
@@ -273,14 +218,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[156327] = { -- Voitha
 		["names"] = {
 			"I will retrieve the scrolls.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[158765] = { -- Pelodis
-		["names"] = {
-			"I'm ready for formation training.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -367,14 +304,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[170928] = { -- Amberfoot
-		["names"] = {
-			"I'm ready for the disguise.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[169917] = { -- Avowed Ritualist
 		["names"] = {
 			"I have a soul for you.",
@@ -383,25 +312,9 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[165419] = { -- Grand Marshal Mudrag
-		["names"] = {
-			"I'm ready.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[160917] = { -- Grimshadow
 		["names"] = {
 			"<Ride Grimshadow.>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[171946] = { -- Lady Moonberry
-		["names"] = {
-			"I'm ready to rain sparkly terror.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -555,40 +468,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[67990] = { -- Lor'themar Theron
-		["names"] = {
-			"I am ready to launch the assault [Queue for solo instance.]",
-			"I'm ready to tear down the wall! [Queue for solo instance.]",
-			"I am ready! [Queue for solo instance.]",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[69620] = { -- Scout Captain Elsia
-		["names"] = {
-			"I am ready.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[70358] = { -- Scout Captain Elsia
-		["names"] = {
-			"I'm ready to go.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[70371] = { -- Lor'themar Theron
-		["names"] = {
-			"I am ready! [Queue for solo instance.]",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[149626] = { -- Vanguard Battlemage (Alliance)
 		["names"] = {
 			"I must help Khadgar. Send me to the Blasted Lands!",
@@ -679,7 +558,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	[166980] = { -- Lady Jaina Proudmoore
 		["names"] = {
-			"I am ready.",
 			"Tell me about this place.",
 			"Tell me more of the Jailer.",
 			"What about the others who were taken?",
@@ -692,14 +570,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[165918] = { -- Highlord Darion Mograine
 		["names"] = {
 			"Make it talk.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[174871] = { -- Fatescribe Roh-Tahl
-		["names"] = {
-			"I am ready to choose my fate in the Shadowlands.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -997,30 +867,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[164420] = { -- Laurent
-		["names"] = {
-			"I am ready.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[160163] = { -- The Accuser
-		["names"] = {
-			"I'm ready. Begin the ritual.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[160233] = { -- The Accuser
-		["names"] = {
-			"I'm ready. Begin the ritual.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[172431] = { -- Lady Moonberry
 		["names"] = {
 			"Lead on.",
@@ -1040,14 +886,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[165550] = { -- Attendant Shimmerwing
 		["names"] = {
 			"I would like to leave the Queen's audience chamber, please.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[172677] = { -- Niya
-		["names"] = {
-			"I am ready to begin.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -1166,14 +1004,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[137675] = { -- Shadow Hunter Ty'jin
-		["names"] = {
-			"I'm ready to parley, Ty'jin.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[137798] = { -- Boatswain Taryn
 		["names"] = {
 			"Got some new orders from the captain for you, boatswain.",
@@ -1201,14 +1031,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[139524] = { -- Erul Dawnbrook
 		["names"] = {
 			"Take us back to Zuldazar.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[143913] = { -- Eitrigg
-		["names"] = {
-			"Yes, I'm ready to go to Drustvar.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
