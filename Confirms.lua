@@ -47,6 +47,8 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Let's duel.",
 			"I have heard this story before.",
 			"I've heard this tale before.",
+			"<Show him the Word of Zul.>",
+			"<Show her the Word of Zul.>",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
