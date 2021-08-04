@@ -24,6 +24,26 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"I am ready.",
 			"I'm ready",
 			"There is no time left. Run!",
+			"I will assist you.",
+			"Can you return me to the present time?",
+			"Let us begin.",
+			"Yes, I will help.",
+			"I would like to challenge both of you to a spar.",
+			"Will you spar with me?",
+			"Now tell me, did you see who killed the Furlbrows?",
+			"Is there any way I can help?",
+			"O.K.",
+			"Is there anything you need?",
+			"Very well. Let us fight.",
+			"Au'narim claims you owe her anima.",
+			"Maldraxxus needs your service. Will you fight?",
+			"The Lady of the Falls wanted to make sure you were safe.",
+			"<Ask about suspicious activity>",
+			"<Request tithe>",
+			"<Present Lajos's invitation>",
+			"We are ready",
+			"Take us back to Zuldazar.",
+			"Go hunt somewhere else!",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -242,47 +262,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[141488] = { -- Zidormi (Tirisfal Glades)
 		["names"] = {
 			"Can you show me what Tirisfal Glades was like before the Battle for Lordaeron?",
-			"Can you return me to the present time?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[160272] = { -- Kynthia
-		["names"] = {
-			"Let us begin.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[171747] = { -- Project Lead Allen
-		["names"] = {
-			"I will assist you.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[166148] = { -- Sawn
-		["names"] = {
-			"I will assist you.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[152418] = { -- Gallath
-		["names"] = {
-			"Yes, I will help.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[172259] = { -- Duskleaf
-		["names"] = {
-			"Yes, I will help.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -355,34 +334,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[160999] = { -- Altar of the Long Night
 		["names"] = {
 			"Put on the Faceless Mask of the Long Night.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[159504] = { -- Sparring Aspirant
-		["names"] = {
-			"",
-			"I would like to challenge both of you to a spar.",
-			"Will you spar with me?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[159505] = { -- Sparring Aspirant
-		["names"] = {
-			"I would like to challenge both of you to a spar.",
-			"Will you spar with me?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[161279] = { -- Sparring Aspirant
-		["names"] = {
-			"I would like to challenge both of you to a spar.",
-			"Will you spar with me?",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -516,38 +467,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[42383] = { -- Transient
-		["names"] = {
-			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
-		},
-		["confirm"] = "Are you sure you want to give this hobo money?",
-		["cost"] = 50,
-		["mod"] = "LSHIFT",
-	},
-	[42384] = { -- Homeless Stormwind Citizen
-		["names"] = {
-			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
-		},
-		["confirm"] = "Are you sure you want to give this hobo money?",
-		["cost"] = 50,
-		["mod"] = "LSHIFT",
-	},
-	[42386] = { -- Homeless Stormwind Citizen
-		["names"] = {
-			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
-		},
-		["confirm"] = "Are you sure you want to give this hobo money?",
-		["cost"] = 50,
-		["mod"] = "LSHIFT",
-	},
-	[42391] = { -- West Plains Drifter
-		["names"] = {
-			"Maybe a couple copper will loosen your tongue. Now tell me, did you see who killed the Furlbrows?",
-		},
-		["confirm"] = "Are you sure you want to give this hobo money?",
-		["cost"] = 50,
-		["mod"] = "LSHIFT",
-	},
 	[160121] = { -- Master Sha'lor
 		["names"] = {
 			"I need a flute.",
@@ -599,43 +518,8 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[165052] = { -- Vial Master Lurgy
-		["names"] = {
-			"Is there any way I can help?",
-			"O.K.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[157313] = { -- Foul-Tongue Cyrlix
-		["names"] = {
-			"Is there any way I can help?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[157945] = { -- Boil Master Yetch
-		["names"] = {
-			"Is there any way I can help?",
-			"O.K.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[159824] = { -- Gunn Gorgebone
-		["names"] = {
-			"Is there anything you need?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[159827] = { -- Scrapper Minoire
 		["names"] = {
-			"Is there anything you need?",
 			"Here are the enhancers you wanted.",
 		},
 		["confirm"] = "",
@@ -644,8 +528,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	[159696] = { -- Rencissa the Dynamo
 		["names"] = {
-			"Is there anything you need?",
-			"Here--this is the biggest rock I could find.",
+			"biggest rock",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -659,39 +542,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[163084] = { -- Tester Sahaari
-		["names"] = {
-			"Very well. Let us fight.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[163083] = { -- Valuator Malus
-		["names"] = {
-			"Very well. Let us fight.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[164492] = { -- Arena Spectator
-		["names"] = {
-			"Au'narim claims you owe her anima.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[164507] = { -- Arena Spectator
-		["names"] = {
-			"Au'narim claims you owe her anima.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[164508] = { -- Arena Spectator
 		["names"] = {
 			"Au'narim claims you owe her anima.",
 		},
@@ -707,121 +558,9 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[157130] = { -- Recruitable Animate
-		["names"] = {
-			"Maldraxxus needs your service. Will you fight?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[157168] = { -- Stubborn Animate
-		["names"] = {
-			"Maldraxxus needs your service. Will you fight?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[166129] = { -- Specialist Entra
 		["names"] = {
 			"What should I do?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[159427] = { -- Elder Finnan
-		["names"] = {
-			"The Lady of the Falls wanted to make sure you were safe.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[159465] = { -- Elder Gwenna
-		["names"] = {
-			"The Lady of the Falls wanted to make sure you were safe.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[159428] = { -- Groonoomcrooek
-		["names"] = {
-			"The Lady of the Falls wanted to make sure you were safe.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[167918] = { -- Bela
-		["names"] = {
-			"<Ask about suspicious activity>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[167849] = { -- Soul of Keltesh
-		["names"] = {
-			"<Ask about suspicious activity>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[156295] = { -- Courier Rokalai
-		["names"] = {
-			"<Ask about suspicious activity>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[167838] = { -- Globknob
-		["names"] = {
-			"<Ask about suspicious activity>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[167717] = { -- Darkhaven Villager
-		["names"] = {
-			"<Request tithe>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[167744] = { -- Darkhaven Villager
-		["names"] = {
-			"<Request tithe>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[167746] = { -- Darkhaven Villager
-		["names"] = {
-			"<Request tithe>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[168237] = { -- Ilka
-		["names"] = {
-			"<Present Lajos's invitation>",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[168238] = { -- Samu
-		["names"] = {
-			"<Present Lajos's invitation>",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -854,14 +593,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[166542] = { -- Slobwobble
 		["names"] = {
 			"Where does the Taskmaster keep the sinstones?",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[165921] = { -- Courier Araak
-		["names"] = {
-			"We are ready. Please tell the Taskmaster the Maw Walker is here.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -1028,14 +759,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
-	[139524] = { -- Erul Dawnbrook
-		["names"] = {
-			"Take us back to Zuldazar.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
 	[137613] = { -- Hobart Grapplehammer
 		["names"] = {
 			"Your friends were all tortured and killed by witches.",
@@ -1049,14 +772,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Reach inside and pull something out.",
 			"Reach inside and pull out something that feels more like a building.",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[139519] = { -- Swellthrasher
-		["names"] = {
-			"Take us back to Zuldazar.",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
@@ -1130,22 +845,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[98773] = { -- Lasan Skyhorn
 		["names"] = {
 			"Yes!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[96591] = { -- Amateur Hunter
-		["names"] = {
-			"Go hunt somewhere else!",
-		},
-		["confirm"] = "",
-		["cost"] = 0,
-		["mod"] = "LSHIFT",
-	},
-	[98804] = { -- Amateur Hunter
-		["names"] = {
-			"Go hunt somewhere else!",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
