@@ -773,8 +773,8 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	[137397] = { -- Wormhole
 		["names"] = {
-			"Reach inside and pull something out.",
-			"Reach inside and pull out something that feels more like a building.",
+			"<Reach inside and pull something out.>",
+			"<Reach inside and pull out something that feels more like a building.>",
 		},
 		["confirm"] = "",
 		["cost"] = 0,
