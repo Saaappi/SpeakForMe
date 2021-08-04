@@ -27,7 +27,7 @@ end
 local function GossipFrameOptionsClick(confirm)
 	local playerMoney = GetMoney();
 	for key, _ in pairs(t.confirms) do
-		if confirm == t.confirms[key]["confirm"] then
+		if string.find(confirm, t.confirms[key]["confirm"]) then
 			if StaticPopup1Button1:IsVisible() then -- If the button is visible, then click the first button (normally the first button is Accept.)
 				if playerMoney > t.confirms[key]["cost"] then -- The player should have more money than the cost buffer.
 					StaticPopup1Button1:Click(); -- Click the "Accept" button.
