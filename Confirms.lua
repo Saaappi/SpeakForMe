@@ -858,6 +858,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[167663] = { -- Warlord Breka Grimaxe
+		["names"] = {
+			"Let's get out of the citadel and figure out how to get back home.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 };
 
 t.confirms = confirms; -- Add the confirms array to the table, t.
