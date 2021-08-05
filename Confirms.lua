@@ -871,6 +871,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LSHIFT",
 	},
+	[168431] = { -- Warlord Breka Grimaxe
+		["names"] = {
+			"I know my way around Orgrimmar.",
+		},
+		["confirm"] = "Would you like to leave the tutorial?",
+		["cost"] = 0,
+		["mod"] = "LSHIFT",
+	},
 	[108642] = { -- Keeper Remulos
 		["names"] = {
 			"Free Remulos from captivity.",
