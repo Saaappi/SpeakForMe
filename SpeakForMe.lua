@@ -24,25 +24,10 @@ for _, event in ipairs(t.events) do
 end
 
 -- Functions
-local function GossipFrameOptionsClick(confirm)
-	local playerMoney = GetMoney();
-	for key, _ in pairs(t.confirms) do
-		if string.find(confirm, t.confirms[key]["confirm"]) then
-			if StaticPopup1Button1:IsVisible() then -- If the button is visible, then click the first button (normally the first button is Accept.)
-				if playerMoney > t.confirms[key]["cost"] then -- The player should have more money than the cost buffer.
-					StaticPopup1Button1:Click(); -- Click the "Accept" button.
-				else
-					print("Not enough funds to auto select the option.");
-				end
-			end
-		end
-	end
-end
-
 local function GossipFrameOptionsUpdate(npcID)
-	local gossipOptions = C_GossipInfo.GetOptions(); -- Get all information about the available options.
-		
-	local index = 1;
+	local gossipOptions = C_GossipInfo.GetOptions() -- Get all information about the available options.
+	local index = 1
+	
 	for index, optionInfoTable in ipairs(gossipOptions) do -- Iterate over the Options table.
 		for key, _ in pairs(t.confirms) do -- Iterate over the t.confirms table, checking the "name" field to match against the available options.
 			if key == npcID then -- The target's ID is in the table, so use its configuration.
@@ -65,12 +50,8 @@ local function GossipFrameOptionsUpdate(npcID)
 end
 
 e:SetScript("OnEvent", function(self, event, ...) -- This adds an 'OnEvent' ScriptHandler to the frame to listen for events, and then call a function.
-	if event == "GOSSIP_CONFIRM" then
-		local _, confirm = ...; -- What does the gossip confirmation window say.
-		if modKeyPressed then -- Do nothing...
-		else
-			GossipFrameOptionsClick(confirm);
-		end
+	if (event == "GOSSIP_CONFIRM" or event == "GOSSIP_CONFIRM_CANCEL") then
+		StaticPopup1Button1:Click()
 	end
 	
 	if event == "GOSSIP_SHOW" then

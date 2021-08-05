@@ -7,6 +7,7 @@ local addonName, t = ...;
 
 local events = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
 	"GOSSIP_CONFIRM",
+	"GOSSIP_CONFIRM_CANCEL",
 	"GOSSIP_SHOW",
 	"MODIFIER_STATE_CHANGED",
 };

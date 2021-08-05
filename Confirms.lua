@@ -50,7 +50,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"<Show him the Word of Zul.>",
 			"<Show her the Word of Zul.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -58,15 +57,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I'd like to heal and revive my battle pets.",
 		},
-		["confirm"] = "A small fee for supplies is required.",
-		["cost"] = 10000,
+["confirm"] = "A small fee for supplies is required.",
+["cost"] = 10000,
 		["mod"] = "LALT",
 	},
 	[3467] = { -- Baron Longshore
 		["names"] = {
 			"<Break Longshore's manacles and free him.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -74,7 +72,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Send me back to Nozzlepot's Outpost.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -82,7 +79,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Balandar sent me to get you out of here and reclaim his cargo. He's waiting for you in Brackenwall Village.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -90,7 +86,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"<Pound this chump.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -98,7 +93,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"<Offer food.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -106,7 +100,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Bring it on, Rocco.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -115,7 +108,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"<Club him unconscious.>",
 			"<Rifle through his pockets.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -123,7 +115,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I recovered your armor and weapons. Victory or death!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -133,7 +124,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"I'll be sure to tell the Taurajo refugees that. Those that lived.",
 			"Tell him yourself. He's almost here!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -141,7 +131,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Mahka wants you to come see her, Mankrik.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -150,7 +139,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"What? Who are you? What clan are you from?",
 			"You're no orc. You're a spy! Alliance spy!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -158,7 +146,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I need to take a bat to the Dawning Isles.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -166,7 +153,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"<Use the Ambermill Dimensional Portal.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -176,7 +162,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"That's all.",
 			"THAT'S ALL, JOHNNY AWESOME. TAKE IT OR LEAVE IT!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -186,7 +171,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"None.",
 			"Right, thanks. Just go ahead and head southeast. More south than east. Probably off the coast.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -195,7 +179,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Maybe you should go take a nap or something.",
 			"Wait a minute. It looks like something just came up.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -203,7 +186,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Your feet are touching the ground, Orkus. This is shallow water. Just stand up and walk to shore.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -212,7 +194,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"What are you waiting for? Let's go investigate!",
 			"Go ahead and turn this thing on.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -220,15 +201,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
 		},
-		["confirm"] = "Come at me!",
-		["cost"] = 0,
+["confirm"] = "Come at me!",
+["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[88228] = { -- Sergeant Grimjaw
 		["names"] = {
 			"Prepare to battle the Gorens.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -236,7 +216,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"You have my aid. <Help Garona up>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -244,7 +223,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I will retrieve the scrolls.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -252,7 +230,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Can you help with this problem?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -260,7 +237,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Can you help me with something?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -268,7 +244,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Can you show me what Tirisfal Glades was like before the Battle for Lordaeron?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -276,7 +251,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Hide me in the shadows, Khaliiq.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -284,7 +258,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I've cleared a path for you. You should leave.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -292,7 +265,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I have a soul for you.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -300,7 +272,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"<Ride Grimshadow.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -308,7 +279,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Put on the Faceless Mask of the Daredevil.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -316,7 +286,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Put on the Faceless Mask of the Dark Imagination.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -324,7 +293,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Put on the Faceless Mask of the Pained.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -332,7 +300,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Put on the Faceless Mask of the Burned Bridge.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -340,7 +307,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Put on the Faceless Mask of the Long Night.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -348,15 +314,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"FOR AZEROTH!",
 		},
-		["confirm"] = "You are about to embark on a dangerous mission, and you may not be able to return immediately. Are you sure?",
-		["cost"] = 0,
+["confirm"] = "You are about to embark on a dangerous mission, and you may not be able to return immediately. Are you sure?",
+["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[78556] = { -- Ariok
 		["names"] = {
 			"Khadgar has asked us to go distract the Eye of Kilrogg.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -364,7 +329,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Yes. I need you to help me operate that enormous tank.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -372,7 +336,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Get the peons back to work.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -380,7 +343,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Gazlowe needs you.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -388,7 +350,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"You're safe now.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -396,7 +357,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Use the mail service.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -404,7 +364,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Here are the explosives, Elsia.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -412,7 +371,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Alright. Let's go.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -420,7 +378,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I'm with you. Let's break into that shipyard! [Queue for solo instance.]",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -428,7 +385,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I must help Khadgar. Send me to the Blasted Lands!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -436,7 +392,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"We have everything we need. It's time to build the garrison.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -444,7 +399,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Time to get back to work.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -452,7 +406,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Gather Shelly's report.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -460,7 +413,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Begin the compulsion of the All-Seeing Eye.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -468,7 +420,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Select a different timeline.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -476,7 +427,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I need a flute.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -487,7 +437,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"What about the others who were taken?",
 			"<Lie low and observe.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -495,7 +444,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Make it talk.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -503,7 +451,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Show me how I can help the Shadowlands.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -511,7 +458,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Everything is in place for the repair.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -519,15 +465,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I choose the larion.",
 		},
-		["confirm"] = "Are you sure? You will not be able to change your decision on this character.",
-		["cost"] = 0,
+["confirm"] = "Are you sure? You will not be able to change your decision on this character.",
+["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[159827] = { -- Scrapper Minoire
 		["names"] = {
 			"Here are the enhancers you wanted.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -535,7 +480,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"biggest rock",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -543,7 +487,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I have some bloodtusk skulls for you.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -551,7 +494,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Au'narim claims you owe her anima.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -559,7 +501,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Tell me about this opportunity.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -567,7 +508,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"What should I do?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -575,7 +515,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Dimwiddle sent me.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -583,7 +522,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"What are you all doing?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -591,7 +529,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Why are the ones with scribbles interesting?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -599,7 +536,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Where does the Taskmaster keep the sinstones?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -607,7 +543,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Lead on.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -615,7 +550,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Take me to the Queen's audience chamber, please.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -623,7 +557,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I would like to leave the Queen's audience chamber, please.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -632,15 +565,14 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Skip ahead to finish the Torghast chapter and have Torghast, Ve'nari, and the Runecarver unlocked.",
 			"Skip ahead to Korthia.",
 		},
-		["confirm"] = "Are you sure? This action cannot be undone.",
-		["cost"] = 0,
+["confirm"] = "Are you sure? This action cannot be undone.",
+["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[177136] = { -- Polemarch Adrestes
 		["names"] = {
 			"<Ask Adrestes what happened in Elysian Hold.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -648,7 +580,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"House Darkvein",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -656,7 +587,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"<Deliver Prince Renathal's invitation.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -664,7 +594,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"You stand accused of conspiring to overthrow The Countess.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -672,7 +601,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"What happened to the Medallion of Avarice?",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -680,7 +608,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"The Curator sent me. I'm looking for Watcher Emil.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -688,7 +615,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Let's go!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -696,7 +622,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"By my honor you will come to no harm, priestess.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -704,7 +629,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"It's safe now.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -712,7 +636,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Excuse me...",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -720,7 +643,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Arduen sent me. You're free.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -728,7 +650,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Be at peace.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -736,7 +657,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Take me to King Rastakhan.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -744,7 +664,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Got some new orders from the captain for you, boatswain.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -752,7 +671,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"We're saying no to the Ashvane.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -760,7 +678,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Orders from the captain, sir.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -769,7 +686,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Your friends were all tortured and killed by witches.",
 			"Sure.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -778,7 +694,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"<Reach inside and pull something out.>",
 			"<Reach inside and pull out something that feels more like a building.>",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -786,7 +701,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Go find shiny!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -794,7 +708,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"You kill basilisk!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -802,7 +715,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Make big candle! Lots of wax!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -810,7 +722,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Dig rocks, find pretties!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -818,7 +729,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"You keep one. I keep rest.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -827,7 +737,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Best kill job me seen!",
 			"Give Trytooth the boot.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -835,7 +744,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Me think me have just the right touch...",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -843,7 +751,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Take the Windmaster's Totem.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -851,7 +758,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Yes!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -859,7 +765,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Let's go hunting!",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -867,7 +772,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Let's get out of the citadel and figure out how to get back home.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -875,22 +779,21 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I know my way around Orgrimmar.",
 		},
-		["confirm"] = "Would you like to leave the tutorial?",
-		["cost"] = 0,
+["confirm"] = "Would you like to leave the tutorial?",
+["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[108642] = { -- Keeper Remulos
 		["names"] = {
 			"Free Remulos from captivity.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[4311] = { -- Holgar Stormaxe
 		["names"] = {},
-		["confirm"] = "Are you sure you want to skip the Broken Shore introduction?",
-		["cost"] = 0,
+["confirm"] = "Are you sure you want to skip the Broken Shore introduction?",
+["cost"] = 0,
 		["mod"] = "LALT",
 	},
 };
