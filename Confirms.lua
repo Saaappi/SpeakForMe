@@ -52,7 +52,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[2] = { -- General NPC Gossips (with Cost)
 		["names"] = {
@@ -60,7 +60,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "A small fee for supplies is required.",
 		["cost"] = 10000,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[3467] = { -- Baron Longshore
 		["names"] = {
@@ -68,7 +68,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[9316] = { -- Wenikee Boltbucket
 		["names"] = {
@@ -76,7 +76,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[17119] = { -- Ithania
 		["names"] = {
@@ -84,7 +84,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[34503] = { -- Razormane Pillager
 		["names"] = {
@@ -92,7 +92,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[34523] = { -- Captured Razormane
 		["names"] = {
@@ -100,7 +100,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[34578] = { -- Rocco Whipshank
 		["names"] = {
@@ -108,7 +108,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[34754] = { -- Chief Engineer Foote
 		["names"] = {
@@ -117,7 +117,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[37167] = { -- Stonetalon Prisoner
 		["names"] = {
@@ -125,7 +125,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[37811] = { -- Warlord Gar'dul
 		["names"] = {
@@ -135,7 +135,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[37847] = { -- Mankrik
 		["names"] = {
@@ -143,7 +143,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[38033] = { -- Awkward Gangly Orc
 		["names"] = {
@@ -152,7 +152,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[44825] = { -- Bat Handler Maggotbreath
 		["names"] = {
@@ -160,7 +160,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[45752] = { -- Ambermill Dimensional Portal
 		["names"] = {
@@ -168,7 +168,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[47442] = { -- Johnny Awesome
 		["names"] = {
@@ -178,7 +178,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[47443] = { -- Kingslayer Orkus
 		["names"] = {
@@ -188,7 +188,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[47444] = { -- Dumass
 		["names"] = {
@@ -197,7 +197,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[48218] = { -- Kingslayer Orkus
 		["names"] = {
@@ -205,7 +205,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[61348] = { -- Lorewalker Cho (Mogu'shan Vaults)
 		["names"] = {
@@ -214,7 +214,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[66824] = { -- Grand Master Obalis
 		["names"] = {
@@ -222,7 +222,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "Come at me!",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[88228] = { -- Sergeant Grimjaw
 		["names"] = {
@@ -230,7 +230,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[152993] = { -- Garona Halforcen (Vision of Orgrimmar)
 		["names"] = {
@@ -238,7 +238,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[156327] = { -- Voitha
 		["names"] = {
@@ -246,7 +246,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[169027] = { -- Helpful Steward (for the fixes)
 		["names"] = {
@@ -254,7 +254,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[169078] = { -- Helpful Steward (to get them to follow you)
 		["names"] = {
@@ -262,7 +262,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[141488] = { -- Zidormi (Tirisfal Glades)
 		["names"] = {
@@ -270,7 +270,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[165966] = { -- Khaliiq
 		["names"] = {
@@ -278,7 +278,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[172714] = { -- Trapped Caretaker
 		["names"] = {
@@ -286,7 +286,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[169917] = { -- Avowed Ritualist
 		["names"] = {
@@ -294,7 +294,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160917] = { -- Grimshadow
 		["names"] = {
@@ -302,7 +302,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160998] = { -- Altar of the Daredevil
 		["names"] = {
@@ -310,7 +310,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160961] = { -- Altar of the Dark Imagination
 		["names"] = {
@@ -318,7 +318,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[161000] = { -- Altar of the Pained
 		["names"] = {
@@ -326,7 +326,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160967] = { -- Altar of the Burned Bridge
 		["names"] = {
@@ -334,7 +334,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160999] = { -- Altar of the Long Night
 		["names"] = {
@@ -342,7 +342,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[78423] = { -- Archmage Khadgar
 		["names"] = {
@@ -350,7 +350,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "You are about to embark on a dangerous mission, and you may not be able to return immediately. Are you sure?",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[78556] = { -- Ariok
 		["names"] = {
@@ -358,7 +358,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[78568] = { -- Ariok
 		["names"] = {
@@ -366,7 +366,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[80225] = { -- Skaggit
 		["names"] = {
@@ -374,7 +374,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[86775] = { -- Senior Peon II
 		["names"] = {
@@ -382,7 +382,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[169273] = { -- Silkstrider Caretaker
 		["names"] = {
@@ -390,7 +390,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[73629] = { -- Hopswift
 		["names"] = {
@@ -398,7 +398,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[69565] = { -- Scout Captain Elsia
 		["names"] = {
@@ -406,7 +406,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[69810] = { -- Taoshi
 		["names"] = {
@@ -414,7 +414,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[70297] = { -- Taoshi
 		["names"] = {
@@ -422,7 +422,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[149626] = { -- Vanguard Battlemage (Alliance)
 		["names"] = {
@@ -430,7 +430,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[79243] = { -- Baros Alexston
 		["names"] = {
@@ -438,7 +438,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[84455] = { -- Assistant Brightstone
 		["names"] = {
@@ -446,7 +446,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[81441] = { -- Shelly Hamby
 		["names"] = {
@@ -454,7 +454,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[72871] = { -- All-Seeing Eye
 		["names"] = {
@@ -462,7 +462,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[167032] = { -- Chromie
 		["names"] = {
@@ -470,7 +470,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160121] = { -- Master Sha'lor
 		["names"] = {
@@ -478,7 +478,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[166980] = { -- Lady Jaina Proudmoore
 		["names"] = {
@@ -489,7 +489,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[165918] = { -- Highlord Darion Mograine
 		["names"] = {
@@ -497,7 +497,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[159478] = { -- Tal-Inara
 		["names"] = {
@@ -505,7 +505,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[158765] = { -- Pelodis
 		["names"] = {
@@ -513,7 +513,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[157696] = { -- Nemea
 		["names"] = {
@@ -521,7 +521,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "Are you sure? You will not be able to change your decision on this character.",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[159827] = { -- Scrapper Minoire
 		["names"] = {
@@ -529,7 +529,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[159696] = { -- Rencissa the Dynamo
 		["names"] = {
@@ -537,7 +537,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[161710] = { -- Marcel Mullby
 		["names"] = {
@@ -545,7 +545,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[164492] = { -- Arena Spectator
 		["names"] = {
@@ -553,7 +553,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[166657] = { -- Ta'eran
 		["names"] = {
@@ -561,7 +561,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[166129] = { -- Specialist Entra
 		["names"] = {
@@ -569,7 +569,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[169238] = { -- Courier Araak
 		["names"] = {
@@ -577,7 +577,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[166541] = { -- Cobwobble
 		["names"] = {
@@ -585,7 +585,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[166543] = { -- Dobwobble
 		["names"] = {
@@ -593,7 +593,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[166542] = { -- Slobwobble
 		["names"] = {
@@ -601,7 +601,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[172431] = { -- Lady Moonberry
 		["names"] = {
@@ -609,7 +609,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[158543] = { -- Attendant Sparkledew
 		["names"] = {
@@ -617,7 +617,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[165550] = { -- Attendant Shimmerwing
 		["names"] = {
@@ -625,7 +625,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[164079] = { -- Highlord Bolvar Fordragon
 		["names"] = {
@@ -634,7 +634,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "Are you sure? This action cannot be undone.",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[177136] = { -- Polemarch Adrestes
 		["names"] = {
@@ -642,7 +642,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[159946] = { -- The Countess
 		["names"] = {
@@ -650,7 +650,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[165662] = { -- The Countess
 		["names"] = {
@@ -658,7 +658,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[159883] = { -- Chancellor Codrin
 		["names"] = {
@@ -666,7 +666,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160941] = { -- The Curator
 		["names"] = {
@@ -674,7 +674,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[161056] = { -- Guard Captain Elizabeta
 		["names"] = {
@@ -682,7 +682,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[160956] = { -- Watcher Emil
 		["names"] = {
@@ -690,7 +690,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[104739] = { -- Tyrande Whisperwind
 		["names"] = {
@@ -698,7 +698,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[92734] = { -- Penelope Heathrow
 		["names"] = {
@@ -706,7 +706,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[94974] = { -- Sirius Ebonwing
 		["names"] = {
@@ -714,7 +714,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[94975] = { -- Asha Ravensong
 		["names"] = {
@@ -722,7 +722,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[94976] = { -- Cassiel Nightthorn
 		["names"] = {
@@ -730,7 +730,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[135440] = { -- Princess Talanji
 		["names"] = {
@@ -738,7 +738,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[137798] = { -- Boatswain Taryn
 		["names"] = {
@@ -746,7 +746,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[137800] = { -- Quartermaster Killian
 		["names"] = {
@@ -754,7 +754,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[137807] = { -- Navigator Swink
 		["names"] = {
@@ -762,7 +762,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[137613] = { -- Hobart Grapplehammer
 		["names"] = {
@@ -771,7 +771,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[137397] = { -- Wormhole
 		["names"] = {
@@ -780,7 +780,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99745] = { -- Snazzle Shinyfinder
 		["names"] = {
@@ -788,7 +788,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99746] = { -- Trytooth Hardchisel
 		["names"] = {
@@ -796,7 +796,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99747] = { -- Kindle Candlecrafter
 		["names"] = {
@@ -804,7 +804,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99748] = { -- Dug Digger
 		["names"] = {
@@ -812,7 +812,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99781] = { -- Snazzle Shinyfinder
 		["names"] = {
@@ -820,7 +820,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99782] = { -- Trytooth Hardchisel
 		["names"] = {
@@ -829,7 +829,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[99784] = { -- Kindle Candlecrafter
 		["names"] = {
@@ -837,7 +837,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[95403] = { -- Windmaster Julan
 		["names"] = {
@@ -845,7 +845,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[98773] = { -- Lasan Skyhorn
 		["names"] = {
@@ -853,7 +853,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[94434] = { -- Addie Fizzlebog
 		["names"] = {
@@ -861,7 +861,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[167663] = { -- Warlord Breka Grimaxe
 		["names"] = {
@@ -869,7 +869,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[168431] = { -- Warlord Breka Grimaxe
 		["names"] = {
@@ -877,7 +877,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "Would you like to leave the tutorial?",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[108642] = { -- Keeper Remulos
 		["names"] = {
@@ -885,13 +885,13 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		},
 		["confirm"] = "",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 	[4311] = { -- Holgar Stormaxe
 		["names"] = {},
 		["confirm"] = "Are you sure you want to skip the Broken Shore introduction?",
 		["cost"] = 0,
-		["mod"] = "LSHIFT",
+		["mod"] = "LALT",
 	},
 };
 
