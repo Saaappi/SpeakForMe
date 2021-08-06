@@ -779,8 +779,8 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I know my way around Orgrimmar.",
 		},
-["confirm"] = "Would you like to leave the tutorial?",
-["cost"] = 0,
+		["confirm"] = "Would you like to leave the tutorial?",
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[108642] = { -- Keeper Remulos
@@ -792,8 +792,25 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	[4311] = { -- Holgar Stormaxe
 		["names"] = {},
-["confirm"] = "Are you sure you want to skip the Broken Shore introduction?",
-["cost"] = 0,
+		["confirm"] = "Are you sure you want to skip the Broken Shore introduction?",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[167179] = { -- Daelya Twilightsbane
+		["names"] = {
+			"What does the Light wish of me?",
+			"I will do my best to serve the Light. I swear to it.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[167298] = { -- Herbert Gloomburst
+		["names"] = {
+			"I'll fight the harpies that come.",
+		},
+		["confirm"] = "",
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 };
