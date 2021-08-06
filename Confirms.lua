@@ -1,18 +1,4 @@
---[[
-	These variables are provided to the addon by Blizzard.
-		addonName	: This is self explanatory, but it's the name of the addon.
-		t			: This is an empty table. This is how the addon can communicate between files or local functions, sort of like traditional classes.
-]]--
-local addonName, t = ...;
-
---[[
-	Explanations for each subfield in the tables below.
-		name		: This is the name of the gossip option we want the addon to check for.
-		text		: A message the addon will print when the automation is complete.
-		cost		: The cost of selecting the option. This value should include a buffer. (Ex: If the option costs 10 silver to select, then a buffer might be 1 gold before the automation will use it.)
-		targets		: If the name is too long, it may be more appropriate to base the automation off the player's current target instead.
-		mod			: The key used to disable the automation.
-]]--
+local addonName, t = ...
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
 	[1] = { -- General NPC Gossips (without Cost)
 		["names"] = {
@@ -803,6 +789,27 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
+	[135690] = { -- Dread-Admiral Tattersail
+		["names"] = {
+			"Quest",
+		},
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[138137] = { -- Huelo
+		["names"] = {
+			"Pull the harpoon free.",
+		},
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
+	[137675] = { -- Shadow Hunter Ty'jin
+		["names"] = {
+			"I'm ready to parley, Ty'jin.",
+		},
+		["cost"] = 0,
+		["mod"] = "LALT",
+	},
 };
 
-t.confirms = confirms; -- Add the confirms array to the table, t.
+t.confirms = confirms
