@@ -8,7 +8,6 @@ local addonName, t = ...;
 --[[
 	Explanations for each subfield in the tables below.
 		name		: This is the name of the gossip option we want the addon to check for.
-		confirm		: If a gossip option uses a confirmation as a followup, this is the text we want to check for.
 		text		: A message the addon will print when the automation is complete.
 		cost		: The cost of selecting the option. This value should include a buffer. (Ex: If the option costs 10 silver to select, then a buffer might be 1 gold before the automation will use it.)
 		targets		: If the name is too long, it may be more appropriate to base the automation off the player's current target instead.
@@ -57,8 +56,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I'd like to heal and revive my battle pets.",
 		},
-["confirm"] = "A small fee for supplies is required.",
-["cost"] = 10000,
+		["cost"] = 10000,
 		["mod"] = "LALT",
 	},
 	[3467] = { -- Baron Longshore
@@ -201,8 +199,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"Think you can take me in a pet battle?  Let's fight!", -- The extra space here is critical.
 		},
-["confirm"] = "Come at me!",
-["cost"] = 0,
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[88228] = { -- Sergeant Grimjaw
@@ -314,8 +311,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"FOR AZEROTH!",
 		},
-["confirm"] = "You are about to embark on a dangerous mission, and you may not be able to return immediately. Are you sure?",
-["cost"] = 0,
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[78556] = { -- Ariok
@@ -465,8 +461,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I choose the larion.",
 		},
-["confirm"] = "Are you sure? You will not be able to change your decision on this character.",
-["cost"] = 0,
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[159827] = { -- Scrapper Minoire
@@ -565,8 +560,7 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"Skip ahead to finish the Torghast chapter and have Torghast, Ve'nari, and the Runecarver unlocked.",
 			"Skip ahead to Korthia.",
 		},
-["confirm"] = "Are you sure? This action cannot be undone.",
-["cost"] = 0,
+		["cost"] = 0,
 		["mod"] = "LALT",
 	},
 	[177136] = { -- Polemarch Adrestes
@@ -779,7 +773,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I know my way around Orgrimmar.",
 		},
-		["confirm"] = "Would you like to leave the tutorial?",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -792,7 +785,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	},
 	[4311] = { -- Holgar Stormaxe
 		["names"] = {},
-		["confirm"] = "Are you sure you want to skip the Broken Shore introduction?",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -801,7 +793,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 			"What does the Light wish of me?",
 			"I will do my best to serve the Light. I swear to it.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
@@ -809,7 +800,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 		["names"] = {
 			"I'll fight the harpies that come.",
 		},
-		["confirm"] = "",
 		["cost"] = 0,
 		["mod"] = "LALT",
 	},
