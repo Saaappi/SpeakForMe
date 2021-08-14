@@ -1,50 +1,6 @@
 local addonName, t = ...
 local confirms = { -- An integer-indexed array of the events that should be registered to the addon's ScriptHandler.
 	[1] = { -- General NPC Gossips (without Cost)
-		["names"] = {
-			"Are you enjoying yourself?", -- Quest: Mix, Mingle, and Meddle
-			"Begin pet battle.",
-			"Let's do battle!",
-			"I am ready to go.",
-			"I am ready.",
-			"I'm ready",
-			"There is no time left. Run!",
-			"I will assist you.",
-			"Can you return me to the present time?",
-			"Let us begin.",
-			"Yes, I will help.",
-			"I would like to challenge both of you to a spar.",
-			"Will you spar with me?",
-			"Now tell me, did you see who killed the Furlbrows?",
-			"Is there any way I can help?",
-			"O.K.",
-			"Is there anything you need?",
-			"Very well. Let us fight.",
-			"Au'narim claims you owe her anima.",
-			"Maldraxxus needs your service. Will you fight?",
-			"The Lady of the Falls wanted to make sure you were safe.",
-			"<Ask about suspicious activity>",
-			"<Request tithe>",
-			"<Present Lajos's invitation>",
-			"We are ready",
-			"Take us back to Zuldazar.",
-			"Go hunt somewhere else!",
-			"Let's duel.",
-			"I have heard this story before.",
-			"I've heard this tale before.",
-			"<Show him the Word of Zul.>",
-			"<Show her the Word of Zul.>",
-		},
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	[2] = { -- General NPC Gossips (with Cost)
-		["names"] = {
-			"I'd like to heal and revive my battle pets.",
-		},
-		["cost"] = 10000,
-		["mod"] = "LALT",
-	},
 	[3467] = { -- Baron Longshore
 		["names"] = {
 			"<Break Longshore's manacles and free him.>",
@@ -408,23 +364,6 @@ local confirms = { -- An integer-indexed array of the events that should be regi
 	[160121] = { -- Master Sha'lor
 		["names"] = {
 			"I need a flute.",
-		},
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	[166980] = { -- Lady Jaina Proudmoore
-		["names"] = {
-			"Tell me about this place.",
-			"Tell me more of the Jailer.",
-			"What about the others who were taken?",
-			"<Lie low and observe.>",
-		},
-		["cost"] = 0,
-		["mod"] = "LALT",
-	},
-	[165918] = { -- Highlord Darion Mograine
-		["names"] = {
-			"Make it talk.",
 		},
 		["cost"] = 0,
 		["mod"] = "LALT",
